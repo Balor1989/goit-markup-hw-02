@@ -1,0 +1,22 @@
+/* цвет основного шрифта #212121 */
+/* цвет вторичного шрифта #757575 */
+/* цвет фона #E5E5E5; */
+/* вторичный цвет фона #F5F4FA */
+ul {
+  list-style: none;
+}
+/* Logo style */
+.web-logo {
+  color: #2196f3;
+}
+.studio-logo {
+  color: #000000;
+}
+/* Nav style */
+.site-nav a {
+  color: #212121;
+}
+/* Contacts style */
+.contacts-box a {
+  color: #757575;
+}
