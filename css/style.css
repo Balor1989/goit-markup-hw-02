@@ -2,6 +2,10 @@
 /* цвет вторичного шрифта #757575 */
 /* цвет фона #E5E5E5; */
 /* вторичный цвет фона #F5F4FA */
+body{
+  font-family: roboto, sans-serif;
+  color:#757575;
+}
 :root{
   --hero-text-color:#FFFFFF;
   --primary-text-color:#212121;
@@ -13,6 +17,9 @@
   --button-bgc-color:#F5F4FA;
   --accent-button:#FFFFFF;
   --accent-bgc-button:#2196F3;
+  --web-logo-color:#2196f3;
+  --studio-logo-color:#000000;
+  --nav-color:#212121;
 
 }
 
@@ -21,22 +28,33 @@ ul {
 }
 /* Logo style */
 .web-logo {
-  color: #2196f3;
+  color: var(--web-logo-color);
+  font-family: raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .studio-logo {
-  color: #000000;
+  color: var(--studio-logo-color);
+  font-family: raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 /* Nav style */
 .site-nav .list {
-  color: #212121;
+  color: var(--nav-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
 }
 .site-nav .list:hover,.site-nav .list:focus{
   color: var(--accent-color);
 }
 /* Contacts style  */
 .contacts-box .list {
-  color: #757575;
+  color:var(--secondary-text-color)
 }
 .contacts-box .list:hover,.contacts-box .list:focus{
    color: var(--accent-color);
@@ -56,6 +74,11 @@ ul {
 color:var(--secondary-text-color)
 }
 /* buttons */
+/* Переписать если hover и focus будут другим цветом */
+.hero-button{
+  color:var(--accent-button);
+  background-color: var(--accent-bgc-button);
+}
 .portfolio-button{
 color:var(--button-color);
 background-color: var(--button-bgc-color);
@@ -69,8 +92,13 @@ footer{
   background-color: var(--footer-bgc);
 }
 address{
-color:var(--footer-text-color)
+color:var(--footer-text-color);
+font-style:inherit;
 }
 .studio-footerlogo{
-color:var(--footer-text-color)
+color:var(--footer-text-color);
+font-family: raleway, sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
 }
