@@ -1,7 +1,4 @@
-/* цвет основного шрифта #212121 */
-/* цвет вторичного шрифта #757575 */
-/* цвет фона #E5E5E5; */
-/* вторичный цвет фона #F5F4FA */
+
 body{
   font-family: roboto, sans-serif;
   color:#757575;
@@ -30,14 +27,14 @@ ul {
 .web-logo {
   color: var(--web-logo-color);
   font-family: raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 }
 .studio-logo {
   color: var(--studio-logo-color);
   font-family: raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 }
@@ -54,24 +51,43 @@ ul {
 }
 /* Contacts style  */
 .contacts-box .list {
-  color:var(--secondary-text-color)
+  color:var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
 }
 .contacts-box .list:hover,.contacts-box .list:focus{
    color: var(--accent-color);
 }
 /* section style */
-.section-title{
-  color: var(--primary-text-color);
-}
-.hero-title{
-  color: var(--hero-text-color);
-}
-/* Когда будет картинка заменить на нее */
 .hero-section{
   background-color: var(--footer-bgc);
 }
+.hero-title{
+  color: var(--hero-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+}
+.section-title{
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.secondary{
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
 .section-text{
-color:var(--secondary-text-color)
+color:var(--secondary-text-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
 }
 /* buttons */
 /* Переписать если hover и focus будут другим цветом */
@@ -94,6 +110,9 @@ footer{
 address{
 color:var(--footer-text-color);
 font-style:inherit;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
 }
 .studio-footerlogo{
 color:var(--footer-text-color);
