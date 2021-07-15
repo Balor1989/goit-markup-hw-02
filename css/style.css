@@ -2,6 +2,7 @@
 body{
   font-family: roboto, sans-serif;
   color:#757575;
+  letter-spacing: 0.03em;
 }
 :root{
   --hero-text-color:#FFFFFF;
@@ -94,10 +95,18 @@ line-height: 1.7;
 .hero-button{
   color:var(--accent-button);
   background-color: var(--accent-bgc-button);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
 }
 .portfolio-button{
-color:var(--button-color);
-background-color: var(--button-bgc-color);
+  color:var(--button-color);
+  background-color: var(--button-bgc-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 .portfolio-button:hover, .portfolio-button:focus{
   color:var(--accent-button);
