@@ -2,6 +2,15 @@
 /* цвет вторичного шрифта #757575 */
 /* цвет фона #E5E5E5; */
 /* вторичный цвет фона #F5F4FA */
+:root{
+  --hero-text-color:#FFFFFF;
+  --primary-text-color:#212121;
+  --secondary-text-color:#757575;
+  --footer-bgc:#2F303A;
+  --adress-text-color:#ffffff;
+
+}
+
 ul {
   list-style: none;
 }
@@ -12,17 +21,39 @@ ul {
 .studio-logo {
   color: #000000;
 }
+
 /* Nav style */
-.site-nav.list {
+.site-nav .list {
   color: #212121;
 }
 .site-nav .list:hover,.site-nav .list:focus{
   color: #2196F3;
 }
-/* Contacts style */
+/* Contacts style  */
 .contacts-box .list {
   color: #757575;
 }
 .contacts-box .list:hover,.contacts-box .list:focus{
    color: #2196F3;
+}
+/* section style */
+.section-title{
+  color: var(--primary-text-color);
+}
+.hero-title{
+  color: var(--hero-text-color);
+}
+/* Когда будет картинка заменить на нее */
+.hero-section{
+  background-color: var(--footer-bgc);
+}
+.section-text{
+color:var(--secondary-text-color)
+}
+/* Footer style */
+footer{
+  background-color: var(--footer-bgc);
+}
+address{
+color:var(--adress-text-color)
 }
