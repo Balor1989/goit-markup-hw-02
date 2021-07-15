@@ -25,12 +25,16 @@ ul {
   list-style: none;
 }
 /* Logo style */
+.logo{
+  text-decoration: none;
+}
 .web-logo {
   color: var(--web-logo-color);
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  
 }
 .studio-logo {
   color: var(--studio-logo-color);
@@ -38,6 +42,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  
 }
 
 /* Nav style */
@@ -46,6 +51,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+  text-decoration: none;
 }
 .site-nav .list:hover,.site-nav .list:focus{
   color: var(--accent-color);
@@ -56,6 +62,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+  text-decoration: none;
 }
 .contacts-box .list:hover,.contacts-box .list:focus{
    color: var(--accent-color);
@@ -128,4 +135,5 @@ font-family: raleway, sans-serif;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.2;
+
 }
