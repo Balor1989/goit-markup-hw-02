@@ -13,10 +13,16 @@ ul {
   color: #000000;
 }
 /* Nav style */
-.site-nav a {
+.site-nav.list {
   color: #212121;
 }
+.site-nav .list:hover,.site-nav .list:focus{
+  color: #2196F3;
+}
 /* Contacts style */
-.contacts-box a {
+.contacts-box .list {
   color: #757575;
+}
+.contacts-box .list:hover,.contacts-box .list:focus{
+   color: #2196F3;
 }
