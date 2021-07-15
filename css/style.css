@@ -7,7 +7,12 @@
   --primary-text-color:#212121;
   --secondary-text-color:#757575;
   --footer-bgc:#2F303A;
-  --adress-text-color:#ffffff;
+  --footer-text-color:#ffffff;
+  --accent-color:#2196F3;
+  --button-color:#212121;
+  --button-bgc-color:#F5F4FA;
+  --accent-button:#FFFFFF;
+  --accent-bgc-button:#2196F3;
 
 }
 
@@ -27,14 +32,14 @@ ul {
   color: #212121;
 }
 .site-nav .list:hover,.site-nav .list:focus{
-  color: #2196F3;
+  color: var(--accent-color);
 }
 /* Contacts style  */
 .contacts-box .list {
   color: #757575;
 }
 .contacts-box .list:hover,.contacts-box .list:focus{
-   color: #2196F3;
+   color: var(--accent-color);
 }
 /* section style */
 .section-title{
@@ -50,10 +55,22 @@ ul {
 .section-text{
 color:var(--secondary-text-color)
 }
+/* buttons */
+.portfolio-button{
+color:var(--button-color);
+background-color: var(--button-bgc-color);
+}
+.portfolio-button:hover, .portfolio-button:focus{
+  color:var(--accent-button);
+  background-color: var(--accent-bgc-button);
+}
 /* Footer style */
 footer{
   background-color: var(--footer-bgc);
 }
 address{
-color:var(--adress-text-color)
+color:var(--footer-text-color)
+}
+.studio-footerlogo{
+color:var(--footer-text-color)
 }
